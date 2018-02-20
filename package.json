@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "ng": "ng",
-    "preinstall": "npm install -g angular-cli",
+    "preinstall": "npm install -g angular-cli http-server",
     "start": "http-server dist/",
     "start1": "ng serve",
     "lint": "ng lint",
